@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    width:100%;
+}
+.flex{
+    width: 100%;
+}
+.row-flex{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.main{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 21px;
+}
+.musicbg{
+    background-image: url(images/music.webp);
+    background-size: cover;
+    height: 600px;
+    width: auto;
+    background-repeat: no-repeat;
+}
+.main ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;  
+} 
+.content{
+    padding:40px 0px 0px 30px;
+    color: white;
+     
+}
+.content h1{
+    line-height: 50px;
+    font-size: 42px;
+    margin-bottom: 20px;  
+    
+}
+.content h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.bttn{
+    border-radius: 5px;
+    padding: 15px 25px;
+    background-color: rgb(237, 123, 92);
+    border: none;
+    font-size: 17px;
+    color: white;
+    margin-top: 10px;
+}
+.icon{
+    margin-top: 10px;
+    font-size: 23px; 
+}
+.line{
+    background-color:  rgb(237, 123, 92);
+    width: 130px;
+    height: 3px;
+    margin:auto;
+
+}
+.purpose{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(1, 1, 12);
+    color: white;
+}
+.purpose h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 60px;
+    margin: 20px;
+}
+.partner{
+    margin: 20px;
+}
+ .partner h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+} 
+.ajourney{
+    background-color: black;
+    height: 100%;
+  padding: 20px 0px;
+    text-align: center;
+    background-size: cover;
+   
+}
+.ajourney h1{
+    color: white;
+    text-transform: uppercase;
+    padding: 15px;
+    font-size: 30px;
+}
+.text{
+    text-shadow: 1px 1px navy;
+    padding: 13px;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 200px;
+    width: 50%;
+    padding-left:30px;
+    word-spacing: 1px;
+    margin-top: 20px;
+}
+.plan{
+    background-color: black;
+    height: 650px;
+}
+.para{
+    width: 50%;
+   margin-top: 30px;
+}
+.heading{
+    color: white;
+    font-size: 20px;
+   text-align: center;
+   padding: 15px;
+}
+.heading3{
+    color: white;
+    font-weight: bold;
+    font-size: 550;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.roadmap-bg{
+text-align: center;
+margin-top: 30px;
+padding-bottom: 30px;
+}
+.modelheading{
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    margin-top: 40px;
+    font-size: 35px;
+}
+.ques{
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+#email{
+    border: none;
+    padding: 0px 5px;
+    width: 25%;
+    border-radius: 10px;
+    margin-left: 50px;
+  
+}
+.type{
+    display:flex;
+    text-align: center;
+   
+}
+.signup{
+  
+    background-color: black;
+    color: white;
+    padding: 15px;
+   
+}
+.footer{
+   padding: 20px 40px;
+    background: black;
+   width: 100%;
+   margin-top: 50px;
+}
+.footer-bottom{
+    background-color: #0a0a0a;
+    color: white;
+    height: 40px;
+    text-align: center;
+    padding: 5px;
+}
+.aboutus h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.aboutus h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background-color: rgb(237, 123, 92);
+}
+.aboutus p{
+    color: white;
+}
+.sci{
+    margin-top: 20px;
+    display: flex;
+
+}
+.sci li{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+  color:white;
+    list-style: none;
+}
+.sec h1{
+    color: white;
+}
+.lists{
+    color: white;
+    list-style: none;
+    font-size: 14px;
+}
+
